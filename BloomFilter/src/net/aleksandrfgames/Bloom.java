@@ -9,7 +9,7 @@ public class Bloom<T> {
 
 	private BitSet bf;
 	private int bitArraySize = 10000;
-	private int numHashFunc = 6;
+	private int numHashFunc = 7;
 	
 	public Bloom () {
 		bf = new BitSet(bitArraySize);
